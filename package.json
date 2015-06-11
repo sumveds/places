@@ -2,7 +2,7 @@
   "name": "places",
   "version": "1.0.0",
   "description": "Places API for helpchatapp",
-  "main": "index.js",
+  "main": "server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +12,6 @@
     "async": "^1.2.1",
     "googleplaces": "^0.5.1",
     "hapi": "^8.6.1"
-  }
+  },
+  "private": "true"
 }
